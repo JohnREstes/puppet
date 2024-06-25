@@ -12,7 +12,7 @@ const passwordGrowatt = String(process.env.PASSWORD_GROWATT || 'default_password
     let browser;
     try {
         // Open Browser
-        browser = await launch({ headless: false });
+        browser = await launch({ headless: true });
         const page = await browser.newPage();
 
         // Setup browser
