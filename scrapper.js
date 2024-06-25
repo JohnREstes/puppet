@@ -60,7 +60,7 @@ const passwordGrowatt = String(process.env.PASSWORD_GROWATT || 'default_password
         // Replace with the actual selector that appears after login
         // await page.waitForSelector('#some_dashboard_element', { timeout: 10000 });
 
-        console.log('Login successful and data extracted.');
+        console.log('Login successful and data extracted. YAY!');
 
     } catch (error) {
         console.error('An error occurred:', error);
